@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Group 4</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_events">Events</string>
+    <string name="title_profile">Profile</string>
+
+    <string-array name="locations">
+        <item>Atkins Library</item>
+        <item>Belk Gym</item>
+        <item>Cato Hall</item>
+        <item>Cone</item>
+        <item>Colvard Hall</item>
+        <item>Denny Hall</item>
+        <item>Levine Hall</item>
+        <item>Popp Martin Student Union</item>
+        <item>SAC</item>
+        <item>SoVi</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

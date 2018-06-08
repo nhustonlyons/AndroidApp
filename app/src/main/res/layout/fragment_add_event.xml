@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.group4.group4.EventAddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/event_name"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Enter Event"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="319dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="Enter Description"
+            android:inputType="textMultiLine" />
+        <Spinner
+            android:id="@+id/location"
+            android:layout_width="319dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="?attr/editTextBackground" />
+
+        <TextView
+            android:id="@+id/editDate"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="?attr/editTextBackground"
+            android:ems="10"
+            android:hint="Enter Date"
+            android:inputType="date"
+            android:textColor="?attr/editTextColor"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/addEvent"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Add Event" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949782637383",
+    "firebase_url": "https://ninernow-236ce.firebaseio.com",
+    "project_id": "ninernow-236ce",
+    "storage_bucket": "ninernow-236ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949782637383:android:be49acecabce8964",
+        "android_client_info": {
+          "package_name": "com.group4.group4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949782637383-id0iak7cilff682u3cnqpievi2aboipo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.group4.group4",
+            "certificate_hash": "2b4c13c24418bab01b8996e40f51953809037ca9"
+          }
+        },
+        {
+          "client_id": "949782637383-91jro87m9t648h0c1jv888u148vn8819.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxcWdzJD5T8uIMTHCi0rL6Vg9t6nOMoWI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949782637383-91jro87m9t648h0c1jv888u148vn8819.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
